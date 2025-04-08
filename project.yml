@@ -1,0 +1,20 @@
+name: WaterTracker
+options:
+  bundleIdPrefix: com.example
+  developmentLanguage: en
+  deploymentTarget:
+    iOS: 14.0
+targets:
+  WaterTracker:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    info:
+      path: Sources/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.WaterTracker
+        SWIFT_VERSION: 5.0
+        TARGETED_DEVICE_FAMILY: 1
+        CODE_SIGN_STYLE: Automatic
